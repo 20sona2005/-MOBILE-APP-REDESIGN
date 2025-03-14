@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="header">Alarm</h1>
+        <div id="alarmList">
+            <!-- Default Alarm -->
+            <div class="alarm">
+                <div>
+                    <p class="time">12:00 AM</p>
+                    <p class="repeat">Tomorrow</p>
+                </div>
+                <label class="switch">
+                    <input type="checkbox" onchange="toggleAlarm(this)">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Add Button -->
+    <button class="fab" onclick="addAlarm()">+</button>
+
+    <!-- Bottom Navigation Bar -->
+    <div class="bottom-nav">
+        <div class="nav-item active">
+            <i class="fas fa-bell"></i>
+            <p>Alarm</p>
+        </div>
+        <div class="nav-item">
+            <i class="fas fa-clock"></i>
+            <p>Clock</p>
+        </div>
+        <div class="nav-item">
+            <i class="fas fa-hourglass-half"></i>
+            <p>Timer</p>
+        </div>
+        <div class="nav-item">
+            <i class="fas fa-stopwatch"></i>
+            <p>Stopwatch</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
