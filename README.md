@@ -51,3 +51,7 @@ Turn Alarms On/Off – Click the switch next to each alarm to enable/disable it.
 Add an Alarm – Tap the blue "+" button to add a new alarm (by default, 1:00 AM is set).
 
 Switch Tabs – Click Clock, Timer, or Stopwatch icons to simulate navigation.
+
+OUTPUT:
+
+![Image](https://github.com/user-attachments/assets/cca83f4b-d246-447e-a1d4-f4a49d77cce0)
